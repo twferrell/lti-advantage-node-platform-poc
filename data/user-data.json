@@ -1,10 +1,10 @@
 {
     "id": "user1001",
-    "name": "Ms Jane Marie Doe",
-    "given_name": "Jane",
-    "family_name": "Doe",
-    "middle_name": "Marie",
-    "email":"jane@platform.example.edu",
+    "name": "Thomas F",
+    "given_name": "Thomas",
+    "family_name": "F",
+    "middle_name": "W",
+    "email":"thomas@https://straighterline.uc.r.appspot.com",
     "roles":[
         "http://purl.imsglobal.org/vocab/lis/v2/membership#Learner"
     ]
