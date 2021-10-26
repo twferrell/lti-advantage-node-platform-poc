@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%= title %></title>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="LTI 1.1 Tool consumer">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <base href="/">
+    </head>
+    <body>
+        <form id="idTokenLaunch" name="idTokenLaunch" action=<%= action %> method="POST">
+            <input name="id_token" value=<%= id_token %> type="hidden">
+            <input name="state" value=<%= state %> type="hidden">
+            <input name="commit" value="Perform Launch" type="hidden">
+        </form>
+        <script>
+            document.getElementById("idTokenLaunch").submit();
+        </script>
+    </body>
+</html>
