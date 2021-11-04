@@ -7,6 +7,8 @@ router.get('/oidc', AppController.authOidc);
 
 router.get('/keys', AppController.getPublicKey);
 
+router.get('/.well-known/jwks.json', AppController.getMockJwks);
+
 router.get('/', AppController.launchDefault);
 
 module.exports = router;

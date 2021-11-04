@@ -1,0 +1,11 @@
+{
+  "keys": [
+    {
+      "kid": "auth.encryption",
+      "kty": "RSA",
+      "use": "sig",
+      "n": "vCR1o7pj1qZq39EE7F3yjwT03P7cVQgybJwtq-CUR3E42tvgNNMxleAv3x0tODsjpe19dhDwmR7V_xcbzlX-4mkVcxhHocMpEjPXppHXeKqJS-19zCE01lxaCZ6eRFEGvoowhetGv8INksG6Hf17nK6icF0bf24Jb0tagmXgkmCP82a76bccS--J6U5R2qpX9OjFi3eoFf90xpoufW2qXF13VYTrfHJXPiBtc5kaDw3ugLFfDDvrL2iKPgcfoOcOGkGnZ01jyKieEem0C0BZyGDkZz7gbxuz6AuWM90jg2MKxVYseggWY9trrvfPDDLgk3zOFY9OrCkeJEnsAfrZ611tIEjjuFv75I_2hIfIIhKhbVCl0Rl8Qq9V5f4qAIK3ZuYZ0NkHnU2ie40B0R28oCjZ-vCAhmVbWPWvm_R_8B02PzJDsxMbjuJAeSKmkRrJw8qm6qaluPFqMAnAVcWVewri1pYH3_XmKDqgpcUwcPLyp6k9jMcFYeUt7-VZ8xCSqahkIxCS4mlAipkq2PpnlPpSMsA5q6vrOlpdyora0X5ZVdOhqevjUZDdwNo8OEieVX1L60U7F_a0SFWR3V8867tYahEeo-zSK47cbPpbh5ipNTrhCSgBAdlZdP36mKua4VqUIuy_OjW-TA6hHufKHk_8wf6DdXo7Lv6HJhxXl3s",
+      "e": "AQAB"
+    }
+  ]
+}

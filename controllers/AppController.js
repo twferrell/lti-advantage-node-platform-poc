@@ -1,6 +1,7 @@
 const config = require('../config');
 const courses = require('../data/courses');
 const keys = require('../data/keys');
+const mockedKeys = require('../data/mocked-keys.json');
 const {constructLoginParams} = require('../lti/init-login');
 const {handleOIDCRequest} = require('../lti/auth-oidc');
 
@@ -24,7 +25,7 @@ exports.initLogin = (req, res)=>{
     if(!loginData){
         return res.status(400).send(`Bad Request, No tool exists with id = ${toolId}`)
     }
-    
+
     return res.render('init-login.ejs',{
         title: config.appName,
         formFields: loginData.loginParams,
@@ -48,4 +49,8 @@ exports.getPublicKey = (req,res) => {
     let responseObj = {"keys":[]};
     responseObj["keys"].push(keys[0].jwk);
     res.json(responseObj);
+}
+
+exports.getMockJwks = (req,res) => {
+    res.json(mockedKeys);
 }
